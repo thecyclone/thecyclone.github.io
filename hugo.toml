@@ -21,7 +21,7 @@ theme = 'barks'
     [params.head]
         author = "Akash Deep Singh"
         custom_css = "/custom.css"
-        description = "Akash's personal websites"
+        description = "Akash's personal website"
         keywords = ["machine learning", "applied scientist", "LLM", "AI", "PhD"]
 
     [params.meta]
