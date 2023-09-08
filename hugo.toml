@@ -36,7 +36,7 @@ theme = 'barks'
 
     [params.typography]
 #        title_font = "Urbanist"
-        title_font = "Bree Serif"
+        title_font = "Inter"
         body_font = "Source Sans Pro"
 
     [params.colors]
