@@ -1,0 +1,82 @@
+baseURL = '/'
+languageCode = 'en-us'
+canonifyURLs = true
+title = 'Akash Deep Singh'
+copyright = "© 2023 by Akash Deep Singh. <a href='/privacy'>Privacy policy</a>."
+theme = 'barks'
+
+
+# Main menu
+[[menu.main]]
+    name = "Resume"
+    url  = "akash_resume.pdf"
+    weight = 2
+
+
+
+
+# Customization options
+[params]
+
+    [params.head]
+        author = "Akash Deep Singh"
+        custom_css = "/custom.css"
+        description = "Akash's personal websites"
+        keywords = ["machine learning", "applied scientist", "LLM", "AI", "PhD"]
+
+    [params.meta]
+        favicon = true
+        faviconVersion = "1"
+
+    [params.navigation]
+        show_navigation = true
+
+    [params.footer]
+        show_footer = true
+
+    [params.typography]
+#        title_font = "Urbanist"
+        title_font = "Bree Serif"
+        body_font = "Source Sans Pro"
+
+    [params.colors]
+        theme_color = "#333333"
+        background_color = "#fcfbf9"
+        text_color = "#333333"
+        link_color = "#17442a"
+
+
+    [params.social]
+        [params.social.email]
+            name = "E-Mail"
+            class = "fas fa-envelope"
+            url = "mailto:akash.a283@gmail.com"
+            weight = 1
+        [params.social.github]
+            name = "GitHub"
+            class = "fab fa-github"
+            url = "https://github.com/thecyclone"
+            weight = 2
+        [params.social.google_scholar]
+            name = "Google Scholar"
+            class = "ai ai-google-scholar-square"
+            url = "https://scholar.google.com/citations?hl=en&user=cKi3e7YAAAAJ"
+            weight = 3
+        [params.social.linkedin]
+            name = "LinkedIn"
+            class = "fab fa-linkedin"
+            url = "https://www.linkedin.com/in/akashd33psingh/"
+            weight = 6
+
+
+
+
+# Options for Markdown renderer
+[markup]
+
+    [markup.goldmark.renderer]
+        unsafe = true
+        xHTML = true
+
+    [markup.highlight]
+        style = 'dracula'
