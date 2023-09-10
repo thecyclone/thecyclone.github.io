@@ -9,11 +9,15 @@ theme = 'barks'
 # Main menu
 [[menu.main]]
     name = "Resume"
-    url  = "akash_resume.pdf"
+    url  = "/akash_resume.pdf"
     weight = 2
 [[menu.main]]
     name = "Publications"
     url  = "https://scholar.google.com/citations?hl=en&user=cKi3e7YAAAAJ"
+    weight = 2
+[[menu.main]]
+    name = "Education"
+    url  = "/education"
     weight = 2
 
 
