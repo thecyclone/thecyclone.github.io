@@ -2,8 +2,10 @@
 header {
 	text-align: center;
 	position: static;
-	margin-top: 60px;
+	margin-top: 48px;
     line-height: 1.1;
+    border-top: 3px double $text-color;
+    padding-top: 20px;
 }
 
 header .title {
@@ -14,6 +16,7 @@ header .title {
     padding: 0;
     color: $text-color;
     font-display: swap;
+    letter-spacing: 0.02em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -23,7 +26,7 @@ header .title {
     }
 
     header .title {
-        font-size: 44px;
+        font-size: 40px;
     }
 
 }

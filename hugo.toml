@@ -47,15 +47,14 @@ theme = 'barks'
         show_footer = true
 
     [params.typography]
-#        title_font = "Urbanist"
-        title_font = "Inter"
-        body_font = "Source Sans Pro"
+        title_font = "Special+Elite"
+        body_font = "Courier+Prime"
 
     [params.colors]
-        theme_color = "#333333"
-        background_color = "#fcfbf9"
-        text_color = "#333333"
-        link_color = "#17442a"
+        theme_color = "#000000"
+        background_color = "#ffffff"
+        text_color = "#000000"
+        link_color = "#000000"
 
 
     [params.social]

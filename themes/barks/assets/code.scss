@@ -1,12 +1,13 @@
 pre, code {
-	font-family: monospace;
-    background-color: rgba(invert($background-color), 0.1);
-    border-radius: 5px;
+	font-family: $body-font, 'Courier New', monospace;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 code {
 	font-size: 12px;
-	padding: 4px;
+	padding: 2px 5px;
 }
 
 pre {

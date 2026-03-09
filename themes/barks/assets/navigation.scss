@@ -1,30 +1,31 @@
 
 nav {
-	margin-top: 1.5em;
-    margin-bottom: 1em;
-	padding: 0;
+	margin-top: 1.2em;
+    margin-bottom: 0;
+	padding: 0.5em 0;
     color: $text-color;
     text-align: center;
+    border-top: 1px solid $text-color;
+    border-bottom: 1px solid $text-color;
 }
 
 nav a {
     display: inline-block;
-    color: $link-color;
+    color: $text-color;
     text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 nav a::after {
-    margin-top: 4px;
-    content: '';
-    display: block;
-    width: 0;
-    height: 4px;
-    background: $link-color;
-    transition: width 0.25s;
-}
-
-nav a:hover::after {
-    width: 100%;
+    content: none;
 }
 
 nav ul {
@@ -36,22 +37,21 @@ nav ul {
 nav li {
 	list-style-type: none;
 	display: inline-block;
-	font-size: 24px;
+	font-size: 18px;
     padding: 0;
     margin: 0;
 }
 
 nav li + li:before {
-    content: "●";
-    padding: 16px;
+    content: "/";
+    padding: 12px;
+    font-weight: normal;
 }
 
 @media only screen and (max-width: 600px) {
 
     nav {
-        border-top: 1px solid invert($background-color);
-        border-bottom: 1px solid invert($background-color);
-        padding: 1em;
+        padding: 0.8em;
     }
 
     nav li {
@@ -63,5 +63,5 @@ nav li + li:before {
         content: "";
         padding: 0;
     }
-    
+
 }

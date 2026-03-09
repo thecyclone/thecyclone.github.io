@@ -2,7 +2,7 @@
 footer {
     width: 100%;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 48px;
     border-top: 1px solid $text-color;
     padding-top: 1em;
     font-size: small;
@@ -10,12 +10,12 @@ footer {
 
     .fas, .fab, .ai {
         font-size: large;
-        transition: all .15s ease-in-out;
+        transition: opacity .15s ease-in-out;
     }
 
     .fas:hover, .fab:hover, .ai:hover {
-        color: $link-color;
-        transform: scale(1.5);
+        color: $text-color;
+        opacity: 0.5;
     }
 
 }
@@ -39,11 +39,11 @@ footer li {
 footer a {
     color: $text-color;
     text-decoration: underline;
-    text-decoration-style: dotted;
+    text-decoration-style: solid;
     text-underline-offset: 3px;
 }
 
 footer a:hover  {
     text-decoration-style: solid;
-    text-decoration-color: $link-color;
+    opacity: 0.6;
 }

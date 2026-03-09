@@ -10,13 +10,13 @@ main {
     a {
         color: $text-color;
         text-decoration: underline;
-        text-decoration-style: dotted;
+        text-decoration-style: solid;
         text-underline-offset: 3px;
     }
 
     a:hover  {
+        opacity: 0.6;
         text-decoration-style: solid;
-        text-decoration-color: $link-color;
     }
 
 
@@ -34,17 +34,13 @@ main {
     figcaption {
         font-size: smaller;
         line-height: 1.5em;
-        color: rgba($text-color, 0.75);
+        color: rgba($text-color, 0.65);
         margin-bottom: -1em;
         text-align: left;
     }
 
     figcaption a {
-        @if (lightness($background-color) < 55%) { 
-            color: grayscale(darken(invert($background-color), 50%)) !important; 
-        } @else { 
-            color: grayscale(lighten(invert($background-color), 50%)) !important; 
-        }
+        color: $text-color !important;
     }
 
     figcaption h4 {
