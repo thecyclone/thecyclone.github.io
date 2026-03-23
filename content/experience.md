@@ -2,7 +2,7 @@
 title: Experience
 ---
 
-- ## <span style="color:#006400">\[Apr 2023 - Present\]</span> Applied Scientist, Machine Learning @ [Ownwell](https://www.ownwell.com) <span style="color:#008080">\[Austin, TX\]</span>
+- ## <span style="color:#006400">\[Apr 2023 - Present\]</span> Lead Scientist, Machine Learning @ [Ownwell](https://www.ownwell.com) <span style="color:#008080">\[Austin, TX\]</span>
 	- Developed models for housing price prediction, document processing, and question-answering
 	- Conducted prompt engineering and fine-tuning of Large Language Models (LLMs) to optimize performance and adapt them for custom tasks
 	- Collaborated with cross-functional teams to brainstorm and successfully integrate new AI functionalities into the product
