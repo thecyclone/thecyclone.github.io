@@ -6,7 +6,7 @@
     <description>Recent content on Akash Deep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2023 by Akash Deep Singh. &lt;a href=&#39;/privacy&#39;&gt;Privacy policy&lt;/a&gt;.</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 by Akash Deep Singh. &lt;a href=&#39;/privacy&#39;&gt;Privacy policy&lt;/a&gt;. Theme: &lt;a href=&#39;https://github.com/timothygebhard/barks&#39;&gt;barks&lt;/a&gt;.</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Education</title>
       <link>/education/</link>
@@ -22,7 +22,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/experience/</guid>
-      <description>[Apr 2023 - Present] Applied Scientist, Machine Learning @ Ownwell [Austin, TX] Developed models for housing price prediction, document processing, and question-answering Conducted prompt engineering and fine-tuning of Large Language Models (LLMs) to optimize performance and adapt them for custom tasks Collaborated with cross-functional teams to brainstorm and successfully integrate new AI functionalities into the product Utilized machine learning techniques to automate and significantly improve the efficiency of internal and external processes ML Stack: Transformers, multi-modal fusion, gradient boosting, and temporal self-attention Tech Stack: Python, PyTorch, Scikit-learn [Jun 2022 - Sep 2022] Applied Scientist Intern @ Amazon [Seattle, WA] Developed ML models to detect fraud from user behavior patterns (mouse, keyboard gestures) and browsing data for the Buyer Risk Prevention (BRP) Team.</description>
+      <description>[Apr 2023 - Present] Lead Scientist, Machine Learning @ Ownwell [Austin, TX] Developed models for housing price prediction, document processing, and question-answering Conducted prompt engineering and fine-tuning of Large Language Models (LLMs) to optimize performance and adapt them for custom tasks Collaborated with cross-functional teams to brainstorm and successfully integrate new AI functionalities into the product Utilized machine learning techniques to automate and significantly improve the efficiency of internal and external processes ML Stack: Transformers, multi-modal fusion, gradient boosting, and temporal self-attention Tech Stack: Python, PyTorch, Scikit-learn [Jun 2022 - Sep 2022] Applied Scientist Intern @ Amazon [Seattle, WA] Developed ML models to detect fraud from user behavior patterns (mouse, keyboard gestures) and browsing data for the Buyer Risk Prevention (BRP) Team.</description>
     </item>
     
     <item>

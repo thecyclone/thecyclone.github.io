@@ -2,7 +2,7 @@ baseURL = '/'
 languageCode = 'en-us'
 canonifyURLs = true
 title = 'Akash Deep Singh'
-copyright = "© 2026 by Akash Deep Singh. <a href='/privacy'>Privacy policy</a>."
+copyright = "© 2026 by Akash Deep Singh. <a href='/privacy'>Privacy policy</a>. Theme: <a href='https://github.com/timothygebhard/barks'>barks</a>."
 theme = 'barks'
 
 
